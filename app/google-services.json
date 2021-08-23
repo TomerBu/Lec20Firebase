@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "934423911676",
+    "firebase_url": "https://lec20-e0f01-default-rtdb.firebaseio.com",
+    "project_id": "lec20-e0f01",
+    "storage_bucket": "lec20-e0f01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934423911676:android:e6389f9a476d2a13008b79",
+        "android_client_info": {
+          "package_name": "tomerbu.edu.lec20firebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934423911676-n6asqcjj1rr10bdc03vj2mb7pk6avhep.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tomerbu.edu.lec20firebase",
+            "certificate_hash": "7a10ad770c6f4ec3be4d27dfcd880b8519d9d87d"
+          }
+        },
+        {
+          "client_id": "934423911676-dvastmui6tvfoeg1d32d0l5fio3t4ttf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3BDxP5fx_OTxdTfLCyDldgrshGaedSQc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934423911676-dvastmui6tvfoeg1d32d0l5fio3t4ttf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="tomerbu.edu.lec20firebase.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="tomerbu.edu.lec20firebase.ui.chatrooms.ChatRoomsFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_chatrooms" >
+        <action
+            android:id="@+id/action_nav_gallery_to_addRoomDialogFragment"
+            app:destination="@id/addRoomDialogFragment" />
+        <action
+            android:id="@+id/action_nav_gallery_to_messageFragment"
+            app:destination="@id/messageFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="tomerbu.edu.lec20firebase.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <dialog
+        android:id="@+id/addRoomDialogFragment"
+        android:name="tomerbu.edu.lec20firebase.ui.dialogs.AddRoomDialogFragment"
+        android:label="fragment_add_room_dialog"
+        tools:layout="@layout/fragment_add_room_dialog" />
+    <fragment
+        android:id="@+id/messageFragment"
+        android:name="tomerbu.edu.lec20firebase.ui.messages.MessageFragment"
+        android:label="fragment_messages"
+        tools:layout="@layout/fragment_messages" />
+</navigation>

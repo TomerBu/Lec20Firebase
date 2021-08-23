@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Lec20Firebase</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_logout">Log out</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Topics</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="add_chat_room">Add Chat Room</string>
+    <string name="room_name">Room Name</string>
+    <string name="take_picture">Take Picture</string>
+    <string name="add_room">Add Room</string>
+    <string name="add_message">Add Message</string>
+</resources>

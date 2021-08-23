@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.4515965534718702" />
+        <entry key="app/src/main/res/layout/content_main.xml" value="0.4515965534718702" />
+        <entry key="app/src/main/res/layout/fragment_add_room_dialog.xml" value="0.4289318058793579" />
+        <entry key="app/src/main/res/layout/fragment_add_room_dialog_list_dialog_item.xml" value="0.4515965534718702" />
+        <entry key="app/src/main/res/layout/fragment_chatrooms.xml" value="0.4515965534718702" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.30833333333333335" />
+        <entry key="app/src/main/res/layout/fragment_messages.xml" value="0.4462962962962963" />
+        <entry key="app/src/main/res/layout/message_item.xml" value="0.4462962962962963" />
+        <entry key="app/src/main/res/layout/nav_header_main.xml" value="0.25416666666666665" />
+        <entry key="app/src/main/res/layout/room_item.xml" value="0.410407076623918" />
+        <entry key="app/src/main/res/menu/main.xml" value="0.4515965534718702" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
